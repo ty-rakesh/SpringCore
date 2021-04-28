@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+
+   <bean class="com.tc.SpringCoreDemo.beans.Student" id="stu">
+<constructor-arg name="sid" value="10"/>
+<constructor-arg name="name" value="narayana"/>
+</bean>
+
+
+   <bean class="com.tc.SpringCoreDemo.beans.Student" id="stuone">
+<constructor-arg name="sid" value="20"/>
+<constructor-arg name="name" value="Rohit"/>
+
+</bean>
+
+   <bean class="com.tc.SpringCoreDemo.beans.Student" id="stutwo">
+<constructor-arg name="sid" value="30"/>
+<constructor-arg name="name" value="Suhas"/>
+</bean>
+
+   <bean class="com.tc.SpringCoreDemo.beans.Student" id="stuthree">
+<constructor-arg name="sid" value="40"/>
+<constructor-arg name="name" value="kartik"/>
+</bean>
+
+   <bean class="com.tc.SpringCoreDemo.beans.Student" id="stufour">
+<constructor-arg name="sid" value="50"/>
+<constructor-arg name="name" value="tiger"/>
+</bean>
+
+</beans>
